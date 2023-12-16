@@ -21,6 +21,8 @@
     <br />
     <br />
     <a href="https://github.com/jacohein/Harmony/issues">Request Feature</a>
+    •
+    <a href="https://docs.google.com/document/d/1Qz7Vkds5nbaSZ6uhhpMQFF0_ont5fWpk8qKzJYdXYjU/edit?usp=sharing">Project Report</a>
   </p>
 </div>
 
