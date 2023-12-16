@@ -1,0 +1,66 @@
+:root {
+	background: #202020;
+	color: #cdcdcd;
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+header {
+	width: 100%;
+	background: #181818;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5rem;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20rem;
+	height: 100%;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 12rem;
+	padding-inline: 10rem;
+	font-size: 8rem;
+	justify-content: center;
+	align-items: center;
+}
+
+#noteBeingPlayed {
+	font-size: 25rem;
+	color: #cdcdcd;
+}
+
+#feed-title {
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+	main {
+		margin-top: 5rem;
+	}
+
+	section {
+		margin-top: 6rem;
+		padding-inline: 3rem;
+	}
+
+	#noteBeingPlayed {
+		font-size: 17.5rem;
+	}
+
+	#noteFeed {
+		font-size: 4rem;
+	}
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Harmony</title>
+
+		<!-- Style Sheets -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{{ url_for('static', filename='reset.css') }}"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{{ url_for('static', filename='index.css') }}"
+		/>
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+		<script src="{{url_for('static', filename='index.js')}}"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1>Harmony</h1>
+		</header>
+		<main>
+			<h2 id="currently-playing">Current playing</h2>
+			<div id="noteBeingPlayed">...</div>
+		</main>
+		<h2 id="feed-title">Feed of notes</h2>
+		<section id="noteFeed">...</section>
+	</body>
+</html>
